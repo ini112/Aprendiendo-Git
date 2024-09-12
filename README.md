@@ -23,4 +23,4 @@
     ```sh
     git config --global core.editor "code"
     ```
-  <img src="Screenshots/Git Config.png">
+       <img src="Screenshots/Git Config.png" width="400" height="150">
