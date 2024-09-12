@@ -1,4 +1,4 @@
-   --Aquí escribiré mi trabajo para el tema 1 del curso de FullStack de Deusto Formación sobre el control de versiones de "Git"
+--Aquí escribiré mi trabajo para el tema 1 del curso de FullStack de Deusto Formación sobre el control de versiones de "Git"
 
 ## Instalación y configuración de Git
 
@@ -43,9 +43,9 @@
    git branch -m <nombre-rama>
    ```
 
- * Podemos ver todos los cambios desde la zona interactiva de Visual Studio Code en el lateral izauierdo llamada source control.
+ * Podemos ver todos los cambios desde la zona interactiva de Visual Studio Code en el lateral izquierdo, llamada source control.
 
-     <img src="/Screenshots/Source control Visual Studio Code.png" width="400" height="150">
+      <img src="/Screenshots/Source control Visual Studio Code.png" width="80" height="80">
    
  * Una vez creada la rama principal, necesitaremos añadir los archivos que hemos creado utilizando el comando:
 
@@ -64,4 +64,4 @@
    ```
   * Una vez realizado el commit podremos publicar nuestro primer repositorio en GitHub, para ello necesitaremos una cuenta en GitHub y vincularla con Visual Studio Code.
 
-   <img src="/Screenshots/Publish Visual Studio Code.png" width="400" height="150">
+       <img src="/Screenshots/Publish Visual Studio Code.png" width="250" height="45">
