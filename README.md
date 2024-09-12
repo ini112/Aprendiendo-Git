@@ -45,7 +45,7 @@
 
  * Podemos ver todos los cambios desde la zona interactiva de Visual Studio Code en el lateral izauierdo llamada source control.
 
-        <img src="/Screenshots/Source control Visual Studio Code.png" width="400" height="150">
+     <img src="/Screenshots/Source control Visual Studio Code.png" width="400" height="150">
    
  * Una vez creada la rama principal, necesitaremos añadir los archivos que hemos creado utilizando el comando:
 
@@ -64,4 +64,4 @@
    ```
   * Una vez realizado el commit podremos publicar nuestro primer repositorio en GitHub, para ello necesitaremos una cuenta en GitHub y vincularla con Visual Studio Code.
 
-        <img src="/Screenshots/Publish Visual Studio Code.png" width="400" height="150">
+   <img src="/Screenshots/Publish Visual Studio Code.png" width="400" height="150">
