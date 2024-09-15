@@ -66,13 +66,20 @@
 
        <img src="/Screenshots/Publish Visual Studio Code.png" width="250" height="45">
 
-## Pull y Push
+## Fetch, Merge y Pull
 
-  * Una vez crado el repositorio de GitHub podremos provar 2 nuevas funciones. Que serán:
+  * Una vez crado el repositorio de GitHub podremos provar 3 nuevas funciones. Que serán:
 
+    (El comando "fetch" nos permitira descargar los cambios realizados del repositorio remoto al local, dandonos una comparación sobre los cambios).
+    ```sh
+    git fetch
+    ```
+    (El comando "merge" fusionara los cambios descargados por el comando "fetch" al repositorio local)<br>
+    !!! El comando "merge" tambien lo veremos en otro caso más adelante !!!
+    ```sh
+    git merge
+    ```
+    (El comando "pull" realizara la función de el comando "fetch y "merge" al mismo tiempo. Esta acción puede llevar a que el repositorio local entre en conflicto con los cambios realizados).
     ```sh
     git pull
-    ```
-    ```sh
-    git push
     ```
