@@ -23,7 +23,7 @@
     ```sh
     git config --global core.editor "code"
     ```
-       <img src="/Screenshots/Git Config.png" width="400" height="150">
+    <img src="/Screenshots/Git Config.png" width="400" height="150">
 
 ## Empezando con Git
 
@@ -32,7 +32,7 @@
     ```sh
     code
     ```
-       <img src="/Screenshots/Main Visual Studio Code.png" width="400" height="150">
+    <img src="/Screenshots/Main Visual Studio Code.png" width="1000" height="600">
  * Empezaremos creando nuestro HTML, al finalizarlo deberemos inicializar nuestro control de versiones de Git (Podremos utilizar la propia terminal de Visual Studio Code <Ctrl + `>):
 
    ```sh
@@ -43,10 +43,10 @@
    ```sh
    git branch -m <nombre-rama>
    ```
-
+   <img src="/Screenshots/Git init next.png" width="1000" height="600">
  * Podemos ver todos los cambios desde la zona interactiva de Visual Studio Code en el lateral izquierdo, llamada source control.
 
-      <img src="/Screenshots/Source control Visual Studio Code.png" width="80" height="80">
+   <img src="/Screenshots/Source control Visual Studio Code.png" width="110" height="110">
    
  * Una vez creada la rama principal, necesitaremos añadir los archivos que hemos creado utilizando el comando:
 
@@ -67,10 +67,10 @@
    ```sh
    git commit -m <comentario-sobre-el-commit>
    ```
-    <img src="/Screenshots/First git add and commit.png" width="649" height="150">
+    <img src="/Screenshots/First git add and commit.png" width="720" height="220">
   * Una vez realizado el commit podremos publicar nuestro primer repositorio en GitHub, para ello necesitaremos una cuenta en GitHub y vincularla con Visual Studio Code.
 
-       <img src="/Screenshots/Publish Visual Studio Code.png" width="250" height="45">
+    <img src="/Screenshots/Publish Visual Studio Code.png" width="250" height="45">
 
 ## Fetch, Merge y Pull
 
