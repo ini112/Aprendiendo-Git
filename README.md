@@ -2,23 +2,23 @@
 
 ## Instalación y configuración de Git
 
-  * Instalar Git Utilizando la terminal de comandos de ubuntu:
+ * Instalar Git Utilizando la terminal de comandos de ubuntu:
 
     ```sh
     sudo apt-get install git
     ```
-  * Empezar la configuración de git:
+ * Empezar la configuración de git:
 
     ```sh
     git config --global user.email <"correp-electronico">
     git config --global user.name <"nombre-usuario">
     ```
-  * Podemos abrir el archivo de configuración una vez terminado el paso anterior con el siguiente comando:
+ * Podemos abrir el archivo de configuración una vez terminado el paso anterior con el siguiente comando:
 
     ```sh
     git config --global -e
     ```
-  * Podemos tambien establecer nuestro editor de codigo por defecto (en mi caso elegí Visual estudio code) añadiendo la siguiente linea de comando o escribiendo en el documento que acabamos de abrir:
+ * Podemos tambien establecer nuestro editor de codigo por defecto (en mi caso elegí Visual estudio code) añadiendo la siguiente linea de comando o escribiendo en el documento que acabamos de abrir:
 
     ```sh
     git config --global core.editor "code"
@@ -68,13 +68,13 @@
    git commit -m <comentario-sobre-el-commit>
    ```
     <img src="/Screenshots/First git add and commit.png" width="720" height="220">
-  * Una vez realizado el commit podremos publicar nuestro primer repositorio en GitHub, para ello necesitaremos una cuenta en GitHub y vincularla con Visual Studio Code.
+ * Una vez realizado el commit podremos publicar nuestro primer repositorio en GitHub, para ello necesitaremos una cuenta en GitHub y vincularla con Visual Studio Code.
 
     <img src="/Screenshots/Publish Visual Studio Code.png" width="250" height="45">
 
 ## Fetch, Merge y Pull
 
-  * Una vez crado el repositorio de GitHub podremos provar 3 nuevas funciones. Que serán:
+ * Una vez crado el repositorio de GitHub podremos provar 3 nuevas funciones. Que serán:
 
     (El comando "fetch" nos permitira descargar los cambios realizados del repositorio remoto al local, dandonos una comparación sobre los cambios).
     ```sh
@@ -93,6 +93,6 @@
     ```sh
     git pull
     ```
-      <img src="/Screenshots/Git push terminal.png" width="720" height="220">
+      <img src="/Screenshots/Git push terminal.png" width="720" height="280">
     
     Esta sería la cadena de comandos que deberemos seguir para añadir unas imagenes al repositorio remoto.
