@@ -80,12 +80,19 @@
     ```sh
     git fetch
     ```
+      <img src="/Screenshots/Git fetch changes.png" width="1000" height="600">
+    
     (El comando "merge" fusionara los cambios descargados por el comando "fetch" al repositorio local).<br>
     !!! El comando "merge" tambien lo veremos en otro caso más adelante !!!
     ```sh
     git merge
     ```
+      <img src="/Screenshots/Git merge terminal.png" width="720" height="220">
+
     (El comando "pull" realizara la función de el comando "fetch y "merge" al mismo tiempo. Esta acción puede llevar a que el repositorio local entre en conflicto con los cambios realizados).
     ```sh
     git pull
     ```
+      <img src="/Screenshots/Git push terminal.png" width="720" height="220">
+    
+    Esta sería la cadena de comandos que deberemos seguir para añadir unas imagenes al repositorio remoto.
