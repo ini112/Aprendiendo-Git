@@ -32,6 +32,7 @@
     ```sh
     code
     ```
+       <img src="/Screenshots/Main Visual Studio Code.png" width="400" height="150">
  * Empezaremos creando nuestro HTML, al finalizarlo deberemos inicializar nuestro control de versiones de Git (Podremos utilizar la propia terminal de Visual Studio Code <Ctrl + `>):
 
    ```sh
@@ -57,11 +58,16 @@
    ```sh
    git add -A
    ```
+   O
+   ```sh
+   git add --a
+   ```
  * Continuaremos con el comando "commit", sera indispensable comentar el commit para continuar, además, de ser una buena practica para la correcta documentación de nuestro desarrollo sobre el repositorio:
 
    ```sh
    git commit -m <comentario-sobre-el-commit>
    ```
+    <img src="/Screenshots/First git add and commit.png" width="649" height="150">
   * Una vez realizado el commit podremos publicar nuestro primer repositorio en GitHub, para ello necesitaremos una cuenta en GitHub y vincularla con Visual Studio Code.
 
        <img src="/Screenshots/Publish Visual Studio Code.png" width="250" height="45">
@@ -74,7 +80,7 @@
     ```sh
     git fetch
     ```
-    (El comando "merge" fusionara los cambios descargados por el comando "fetch" al repositorio local)<br>
+    (El comando "merge" fusionara los cambios descargados por el comando "fetch" al repositorio local).<br>
     !!! El comando "merge" tambien lo veremos en otro caso más adelante !!!
     ```sh
     git merge
