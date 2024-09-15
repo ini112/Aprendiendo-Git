@@ -65,3 +65,14 @@
   * Una vez realizado el commit podremos publicar nuestro primer repositorio en GitHub, para ello necesitaremos una cuenta en GitHub y vincularla con Visual Studio Code.
 
        <img src="/Screenshots/Publish Visual Studio Code.png" width="250" height="45">
+
+## Pull y Push
+
+  * Una vez crado el repositorio de GitHub podremos provar 2 nuevas funciones. Que serán:
+
+    ```sh
+    git pull
+    ```
+    ```sh
+    git push
+    ```
