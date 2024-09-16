@@ -96,3 +96,38 @@
       <img src="/Screenshots/Git push terminal.png" width="720" height="280">
     
     Esta sería la cadena de comandos que deberemos seguir para añadir unas imagenes al repositorio remoto.
+
+## Git Remote
+
+  * Al trabajar con repositorios remotos sera indispensable saber utilizar las funcionalidades del comando git remote.
+
+    ```sh
+    git remote
+    ```
+      <img src="/Screenshots/Git push terminal.png" width="720" height="280">
+
+    (Al utilizar este comando nos mostrara los nombres de los repositorios remotos creados, por defecto el nombre del repositorio por defecto es el de "origin").
+    ```sh
+    git remote -v
+    ```
+      <img src="/Screenshots/Git push terminal.png" width="720" height="280">
+
+    (Este comando nos permitira ver las urls asociadas a los repositorios remotos)
+    ```sh
+    git remote add <nombre-repositorio> <Url>
+    ```
+      <img src="/Screenshots/Git push terminal.png" width="720" height="280">
+
+    (Este comando nos permitira añadir y nombrar un nuevo repositorio remoto, para ello sera necesario un nomre y una url).
+    ```sh
+    git remote rename <nombre-repositorio> <nuevo-nombre-repositorio>
+    ```
+      <img src="/Screenshots/Git push terminal.png" width="720" height="280">
+
+    (Este comando nos permitira cambiar el nombre del repositorio).
+    ```sh
+    git remote remove <nombre-repositorio>
+    ```
+      <img src="/Screenshots/Git push terminal.png" width="720" height="280">
+    
+    (Este comando nos permitira eliminar el repositorio remoto).
