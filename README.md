@@ -1,4 +1,4 @@
---Aquí escribiré mi trabajo para el tema 1 del curso de FullStack de Deusto Formación sobre el control de versiones de "Git"
+--Aquí escribiré mi aprendizaje del curso de FullStack de Deusto Formación sobre el control de versiones de "Git"
 
 ## Instalación y configuración de Git
 
