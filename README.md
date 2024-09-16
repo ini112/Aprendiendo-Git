@@ -104,30 +104,30 @@
     ```sh
     git remote
     ```
-      <img src="/Screenshots/Git remote terminal.png" width="720" height="280">
+      <img src="/Screenshots/Git remote terminal.png" width="720" height="100">
 
     (Al utilizar este comando nos mostrara los nombres de los repositorios remotos creados, por defecto el nombre del repositorio por defecto es el de "origin").
     ```sh
     git remote -v
     ```
-      <img src="/Screenshots/Git remote v terminal.png" width="720" height="280">
+      <img src="/Screenshots/Git remote v terminal.png" width="720" height="100">
 
     (Este comando nos permitira ver las urls asociadas a los repositorios remotos)
     ```sh
     git remote add <nombre-repositorio> <Url>
     ```
-      <img src="/Screenshots/Git remote add terminal.png" width="720" height="280">
+      <img src="/Screenshots/Git remote add terminal.png" width="1000" height="220">
 
     (Este comando nos permitira añadir y nombrar un nuevo repositorio remoto, para ello sera necesario un nomre y una url).
     ```sh
     git remote rename <nombre-repositorio> <nuevo-nombre-repositorio>
     ```
-      <img src="/Screenshots/Git remote rename terminal.png" width="720" height="280">
+      <img src="/Screenshots/Git remote rename terminal.png" width="1000" height="220">
 
     (Este comando nos permitira cambiar el nombre del repositorio).
     ```sh
     git remote remove <nombre-repositorio>
     ```
-      <img src="/Screenshots/Git remote remove terminal.png" width="720" height="280">
+      <img src="/Screenshots/Git remote remove terminal.png" width="1000" height="150">
     
     (Este comando nos permitira eliminar el repositorio remoto).
