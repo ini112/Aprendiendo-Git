@@ -18,7 +18,7 @@
     ```sh
     git config --global -e
     ```
- * Podemos tambien establecer nuestro editor de codigo por defecto (en mi caso elegí Visual estudio code) añadiendo la siguiente linea de comando o escribiendo en el documento que acabamos de abrir:
+ * Podemos también establecer nuestro editor de código por defecto (en mi caso elegí Visual studio code) añadiendo la siguiente línea de comando o escribiendo en el documento que acabamos de abrir:
 
     ```sh
     git config --global core.editor "code"
