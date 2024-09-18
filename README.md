@@ -38,7 +38,7 @@
    ```sh
    git init
     ```
-   (Por defecto nos creara la rama principal con el nobre "master")-(Se podra cambiar con el comando):
+   (Por defecto nos creará la rama principal con el nobre "master")-(Se podrá cambiar con el comando):
 
    ```sh
    git branch -m <nombre-rama>
