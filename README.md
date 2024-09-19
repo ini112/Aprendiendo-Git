@@ -116,7 +116,7 @@
     ```sh
     git remote add <nombre-repositorio> <Url>
     ```
-      <img src="/Screenshots/Git remote add terminal.png" width="1000" height="220">
+      <img src="/Screenshots/Git remote add terminal.png" width="1000" height="170">
 
     (Este comando nos permitira añadir y nombrar un nuevo repositorio remoto, para ello sera necesario un nomre y una url).
     ```sh
