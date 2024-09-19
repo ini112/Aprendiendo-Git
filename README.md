@@ -62,7 +62,7 @@
    ```sh
    git add --a
    ```
- * Continuaremos con el comando "commit", sera indispensable comentar el commit para continuar, además, de ser una buena practica para la correcta documentación de nuestro desarrollo sobre el repositorio:
+ * Continuaremos con el comando "commit", será indispensable comentar el commit para continuar, además, de ser una buena práctica para la correcta documentación de nuestro desarrollo sobre el repositorio:
 
    ```sh
    git commit -m <comentario-sobre-el-commit>
